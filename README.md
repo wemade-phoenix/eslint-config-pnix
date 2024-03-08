@@ -4,7 +4,7 @@ ESLint configurations based on pnix style guide
 
 ## Installation
 ```
-npm install --dev eslint-config-pnix
+npm install @wemade-phoenix/eslint-config-pnix@1.0.0
 ```
 
 ## Usage
@@ -14,8 +14,8 @@ npm install --dev eslint-config-pnix
 ```javascript
 module.exports = {
   extends: [
-    'pnix'
-    'pnix/prettier'
+    '@wemade-phoenix/pnix'
+    '@wemade-phoenix/pnix/prettier'
   ]
 }
 ```
@@ -24,9 +24,9 @@ module.exports = {
 ```js
 module.exports = {
   extends: [
-    'pnix',
-    'pnix/react',
-    'pnix/prettier'
+    '@wemade-phoenix/pnix',
+    '@wemade-phoenix/pnix/react',
+    '@wemade-phoenix/pnix/prettier'
   ],
 }
 ``` 
@@ -36,10 +36,10 @@ module.exports = {
 ```javascript
 module.exports = {
   extends: [
-    'pnix',
-    'pnix/typescript',
-    'pnix/react',
-    'pnix/prettier'
+    '@wemade-phoenix/pnix',
+    '@wemade-phoenix/pnix/typescript',
+    '@wemade-phoenix/pnix/react',
+    '@wemade-phoenix/pnix/prettier'
   ]
 }
 ```
