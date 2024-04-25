@@ -26,9 +26,9 @@ ESLint의 Prettier를 사용하는 방식으로 별도의 Prettier 설정 파일
 3. vscode 에디터에 설치한 prettier가 동작하여 충돌이 일어나 원하는 동작이 이뤄지지 않을 수 있습니다. 에디터내 prettier 비활성화 해주세요.
 
 ## Usage
-.eslintrc.js
+### 1. eslintrc.js
 
-### Javascript
+##### Javascript
 ```javascript
 module.exports = {
   extends: [
@@ -38,7 +38,7 @@ module.exports = {
 }
 ```
 
-#### Javascript + React
+##### Javascript + React
 ```js
 module.exports = {
   extends: [
@@ -50,7 +50,7 @@ module.exports = {
 ``` 
 
 
-#### Typescript + React
+##### Typescript + React
 ```javascript
 module.exports = {
   extends: [
@@ -61,7 +61,7 @@ module.exports = {
   ]
 }
 ```
-#### tsconfig.json
+### 2.tsconfig.json
 ```
 "include": [
     ".eslintrc.js",
