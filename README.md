@@ -61,7 +61,7 @@ module.exports = {
   ]
 }
 ```
-### 2.tsconfig.json
+### 2. tsconfig.json
 ```
 "include": [
     ".eslintrc.js",
